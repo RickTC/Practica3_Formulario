@@ -1,0 +1,149 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+  <title><font color="blue" size=7>Practica 3</font></title>
+ </head>
+
+<body bgcolor="black">
+  
+  <from action="guardar.php" metho="GET">
+    <fieldset>
+      <legend><font color="blue">Datos Personales</font></legend>
+      <font color="blue">Nombre:</font><input type="text" name="nombre"  id="nombre" size="30" maxlength="10">
+      </br>  
+      <font color="blue">Apellido Paterno: </font><input type="text" name="ApellidoPaterno"  id="ApellidoPaterno" size="50" maxlength="10">
+      </br>
+      <font color="blue">Apellido Materno: </font><input type="text" name="ApellidoMaterno"  id="ApellidoMaterno" size="50" maxlength="10">
+      </br>
+      
+      <font size=4 color="blue">Foto: </font><input type="file" name="foto" id="foto" value="1">
+      </br>
+      <font size=4 color="blue">Fecha de nacimiento:</font></br>
+    
+    <select name="dia">
+       <option value=""></option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+       <option value="13">13</option>
+       <option value="14">14</option>
+       <option value="15">15</option>
+       <option value="16">16</option>
+       <option value="17">17</option>
+       <option value="18">18</option>
+       <option value="19">19</option>
+       <option value="20">20</option>
+       <option value="21">21</option>
+       <option value="22">22</option>
+       <option value="23">23</option>
+       <option value="24">24</option>
+       <option value="25">25</option>
+       <option value="26">26</option>
+       <option value="27">27</option>
+       <option value="28">28</option>
+       <option value="29">29</option>
+       <option value="30">30</option>
+       <option value="31">31</option>
+    </select>
+    
+    <select name="mes">
+       <option value=""></option>
+       <option value="enero">Enero</option>
+       <option value="febrero">Febrero</option>
+       <option value="marzo">Marzo</option>
+       <option value="abril">Abril</option>
+       <option value="mayo">Mayo</option>
+       <option value="junio">Junio</option>
+       <option value="julio">Julio</option>
+       <option value="agosto">Agosto</option>
+       <option value="septiembre">Septiembre</option>
+       <option value="octubre">Octubre</option>
+       <option value="noviembre">Noviembre</option>
+       <option value="diciembre">Diciembre</option>
+    </select>
+     
+    <select name="a&ntilde;o">
+       <option value=""></option>
+       <option value="1">1990</option>
+       <option value="2">1991</option>
+       <option value="3">1992</option>
+       <option value="4">1993</option>
+       <option value="5">1994</option>
+       <option value="6">1995</option>
+       <option value="7">1996</option>
+       <option value="8">1997</option>
+       <option value="9">1998</option>
+       <option value="10">1999</option>
+       <option value="11">2000</option>
+       <option value="12">2001</option>
+       <option value="13">2002</option>
+       <option value="14">2003</option>
+       <option value="15">2004</option>
+       <option value="16">2005</option>
+       <option value="17">2006</option>
+     </select>
+    
+    </br>
+     Sexo
+     </br>
+    <input type="radio" name="Mujer"  id="Mujer" size="10" maxlength="10"><font color="blue">Hombre</font>
+      </br>
+     <input type="radio" name="Mujer"  id="Mujer" size="10" maxlength="10"><font color="blue">Mujer</font>
+      </br>   
+      
+      
+  </fieldset>
+  
+  <fieldset>
+  <legend><font color="blue">Usuario</font></legend>
+  <br>
+      <font color="blue">Codigo: </font><input type="text" name="codigo"  id="codigo" size="10" maxlength="10">
+      </br>  
+   
+     <font color="blue">Password: </font><input type="text" name="Password"  id="password" size="10" maxlength="10">
+      </br>
+    </fieldset>
+    
+    <fieldset>
+      <legend><font color="blue">Datos</font></legend>
+     <font color="blue">Domicilio:</font><input type="text" name="domicilio"  id="domicilio" size="30" maxlength="10">
+      </br>  
+   
+    <font color="blue">Telefono: </font><input type="text" name="telefono"  id="telefono" size="10" maxlength="10">
+      </br>
+      <font color="blue">correo electronico:<input type="text" name="correo"  id="correo" size="30" maxlength="10">
+      </br>  
+    </fieldset>
+  
+  <fieldset>
+    <legend><font color="blue">Interes</font></legend>
+    <input type="checkbox" name="Deporte"  id="Deporte" size="10" maxlength="10"><font color="blue">Deporte</font></br>
+     <input type="checkbox" name="Ciencia"  id="Ciencia" size="10" maxlength="10"><font color="blue">Ciencia</font></br>
+      <input type="checkbox" name="Cultura"  id="Cultura" size="10" maxlength="10"><font color="blue">Cultura</font></br>
+       <input type="checkbox" name="Educacion"  id="Educacion" size="10" maxlength="10"><font color="blue">Educacion</font></br>
+       
+      <font color="blue"> observaciones</font></br>
+       <textarea name="observaciones" id="observaciones" rows="20" cols="50"></textarea>
+       </br>
+       
+        <input type="button" name="cambiar"  id="cambiar" size="10" maxlength="10" value="Cambiar" onclick="alert ('XD');">
+      </br>
+      
+      <input type="button" name="final"  id="final" size="10" maxlength="10" value="Final" onclick="alert('XD');">
+  </fieldset>
+  
+  
+</from>
+</body>
+
+</html>
